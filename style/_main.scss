@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'DM Sans', sans-serif;
+    .left-logo {
+        display: inline-block;
+        width: 30%;
+        height: 30%;
+        background-color: $bg;
+        margin-top: 250px;
+        margin-left: 9.7%;
+    }
+    //Aquí comienza la presentación
+    .right-welcome {
+        float: right;
+        width: 50%;
+        height: 655px;
+        background: $colorThree;
+        text-align: justify;
+        .titulo {
+            margin-top: 30%;
+            margin-left: 20%;
+            color: $colorFive;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: justify;
+            font-family: 'Lobster Two', cursive;
+        }
+        .cuerpo {
+            margin-left: 20%;
+            margin-right: 18%;
+            text-align: justify;
+            font-family: 'DM Sans', sans-serif;
+            color: $colorFive;
+        }
+    }
+    //Aquí comienza el "Nosotros"
+    .nosotros {
+        height: 600px;
+        width: 100%;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            display: block;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #f22e52;
+            text-align: center;
+        }
+        .parra {
+            font-size: 20px;
+            color: $colorFive;
+            text-align: center;
+            padding: 0 20%;
+        }
+        .imgnosotros {
+            width: 200px;
+            margin-left: 0;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    //Aquí comienza el portafolio
+    .portafolio {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .title {
+            margin: 20px auto;
+            color: $colorOne;
+        }
+    }
+    .servicios {
+        background: $bg;
+        display: flex;
+        padding: 20px;
+        margin: auto;
+        justify-content: space-around;
+        align-items: stretch;
+        font-size: 16px;
+        .art-servicio {
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px;
+            justify-content: center;
+            align-content: center;
+            background-color: #ebebeb;
+            border-radius: 20px;
+            margin: 10px;
+            h3 {
+                font-size: 20px;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            p {
+                color: $colorFive;
+                text-align: center;
+            }
+        }
+    } // Acá termina nuestro Equipo By Valentina
+    //Acá comienza Nuestro Equipo
+    .cont-qs {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .title {
+        padding-top: 40px;
+        margin: auto;
+        color: $colorOne;
+        text-align: center;
+    }
+    .team {
+        background: $bg;
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+        align-items: stretch;
+        font-size: 16px;
+        .desc {
+            margin: 5px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+    }
+    .article-qs {
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        justify-content: center;
+        align-content: center;
+        border-radius: 20px;
+        margin: none;
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 10px solid $colorThree;
+        }
+        p {
+            color: $colorFive;
+            text-align: center;
+        }
+        .rol {
+            color: $colorOne;
+            font-size: 20px;
+            text-align: center;
+        }
+        .name {
+            color: $colorFive;
+            font-size: 22px;
+            font-style: bold;
+        }
+    } // Acá termina nuestro Equipo By Julian
+    //Aquí comienza el formulario
+    .contact {
+        margin: 0 auto;
+        width: 100%;
+        padding: 4rem 0;
+        background: $colorFive;
+        text-align: center;
+        .titlef {
+            margin-bottom: 10px;
+            color: $colorThree;
+        }
+        form {
+            padding: 10px;
+            text-align: center;
+            .cajita {
+                margin: 10px;
+                width: 50%;
+                height: 50px;
+                background-color: $bg;
+                border: 0;
+                border-radius: 50px;
+            }
+             ::placeholder {
+                color: $colorFive;
+                padding-left: 15px;
+            }
+            .btn {
+                display: block;
+                margin: auto;
+                width: 90px;
+                height: 50px;
+                background-color: $colorThree;
+                border-radius: 20px;
+                color: $colorFive;
+            }
+            .btn:hover {
+                border: 2px solid $colorOne;
+                color: $bg;
+                background: none;
+            }
+        }
+    }
+}

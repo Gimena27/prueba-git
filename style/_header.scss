@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header {
+    height: 40px;
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    min-width: 50%;
+    max-width: 100%;
+    background: $colorFour;
+
+    .right-menu{
+        float: right;
+        padding-top: 7px;
+        height: 32px;
+        letter-spacing:-1px;
+        white-space: 5px;
+        word-spacing: 2px;
+        background-color: $colorFour;
+        width:81%;
+        color:$bg;
+        font-family: 'DM Sans', sans-serif;
+        
+        .link{
+            color: $colorFive;
+            text-decoration: none;
+        }
+    }
+}
